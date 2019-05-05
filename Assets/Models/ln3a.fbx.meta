@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 960a9fa44969d6240a6b58d5259127d8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: girl1a
+    100002: //RootNode
+    100004: sand_
+    100006: sea4
+    100008: star0
+    100010: girl0
+    100012: girl0-headless
+    100014: girl1b
+    100016: girl2-headless
+    100018: girl2a
+    100020: girl2b
+    100022: girl3
+    100024: sea1
+    100026: sea2
+    100028: sea3
+    100030: sea5
+    100032: sea6
+    100034: star1
+    100036: star2
+    100038: star3
+    100040: star4
+    100042: star5
+    100044: star6
+    100046: guide
+    100048: star-base
+    400000: girl1a
+    400002: //RootNode
+    400004: sand_
+    400006: sea4
+    400008: star0
+    400010: girl0
+    400012: girl0-headless
+    400014: girl1b
+    400016: girl2-headless
+    400018: girl2a
+    400020: girl2b
+    400022: girl3
+    400024: sea1
+    400026: sea2
+    400028: sea3
+    400030: sea5
+    400032: sea6
+    400034: star1
+    400036: star2
+    400038: star3
+    400040: star4
+    400042: star5
+    400044: star6
+    400046: guide
+    400048: star-base
+    2100000: No Name
+    2300000: girl1a
+    2300002: sand_
+    2300004: sea4
+    2300006: star0
+    2300008: girl0
+    2300010: girl0-headless
+    2300012: girl1b
+    2300014: girl2-headless
+    2300016: girl2a
+    2300018: girl2b
+    2300020: girl3
+    2300022: sea1
+    2300024: sea2
+    2300026: sea3
+    2300028: sea5
+    2300030: sea6
+    2300032: star1
+    2300034: star2
+    2300036: star3
+    2300038: star4
+    2300040: star5
+    2300042: star6
+    2300044: guide
+    2300046: star-base
+    3300000: girl1a
+    3300002: sand_
+    3300004: sea4
+    3300006: star0
+    3300008: girl0
+    3300010: girl0-headless
+    3300012: girl1b
+    3300014: girl2-headless
+    3300016: girl2a
+    3300018: girl2b
+    3300020: girl3
+    3300022: sea1
+    3300024: sea2
+    3300026: sea3
+    3300028: sea5
+    3300030: sea6
+    3300032: star1
+    3300034: star2
+    3300036: star3
+    3300038: star4
+    3300040: star5
+    3300042: star6
+    3300044: guide
+    3300046: star-base
+    4300000: sand_
+    4300002: sea4
+    4300004: girl1a
+    4300006: star0
+    4300008: sea1
+    4300010: sea2
+    4300012: sea3
+    4300014: sea5
+    4300016: sea6
+    4300018: girl0
+    4300020: girl0-headless
+    4300022: girl1b
+    4300024: girl3
+    4300026: girl2-headless
+    4300028: star3
+    4300030: star4
+    4300032: star1
+    4300034: star2
+    4300036: star5
+    4300038: star6
+    4300040: girl2a
+    4300042: girl2b
+    4300044: star-base
+    4300046: guide
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
