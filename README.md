@@ -1,2 +1,5 @@
-# a-estrela-dormiu
-Poema de Elieni Caputo
+# A Estrela Dormiu
+Elieni Caputo: Texto, Narração e Direção
+Carlo Caputo: Modelagem e Programação
+Ana Ribeiro: Animações e Programação
+
