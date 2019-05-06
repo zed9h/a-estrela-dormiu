@@ -16,4 +16,10 @@ public class CameraController : MonoBehaviour
         Recenter();
     }
 
+    private void Update() {
+        if(Input.GetMouseButton(0) || Input.anyKeyDown) {
+            Recenter();
+        }
+    }
+
 }
