@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7659780348637745356}
   - component: {fileID: 2871687689731580631}
   - component: {fileID: 1226400794}
+  - component: {fileID: 2122931435}
   m_Layer: 0
   m_Name: Poem (2)
   m_TagString: Untagged
@@ -148,6 +149,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2122931435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385099065161928558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a95019e4302dd4d83f12423ba64376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &573615605023717306
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,10 +190,7 @@ Transform:
   m_Children:
   - {fileID: 3704780736203593779}
   - {fileID: 7659780348637745356}
-  - {fileID: 4470934574989483442}
-  - {fileID: 3644377675792895250}
-  - {fileID: 2547796956264113345}
-  - {fileID: 7169703758644310070}
+  - {fileID: 6231462845949097755}
   - {fileID: 2555594278086763271}
   - {fileID: 9016162488664187048}
   m_Father: {fileID: 0}
@@ -631,7 +641,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190079
   m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -837,8 +847,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -864,7 +874,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_textAlignment: 514
-  m_characterSpacing: 0
+  m_characterSpacing: -13.46
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1249,8 +1259,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1276,7 +1286,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_textAlignment: 514
-  m_characterSpacing: 0
+  m_characterSpacing: -13.46
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1343,6 +1353,7 @@ GameObject:
   - component: {fileID: 2547796956264113345}
   - component: {fileID: 2481457294612910462}
   - component: {fileID: 1226400791}
+  - component: {fileID: 2146810545}
   m_Layer: 0
   m_Name: Poem (5)
   m_TagString: Untagged
@@ -1357,13 +1368,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2950452345848256576}
-  m_LocalRotation: {x: -0.050273076, y: -0.07203955, z: 0.570069, w: 0.8168869}
-  m_LocalPosition: {x: 7.73898, y: -1.61603, z: 2.79831}
-  m_LocalScale: {x: 0.016378768, y: 0.016378768, z: 0.016378768}
+  m_LocalRotation: {x: -0.05027308, y: -0.07203956, z: 0.5700691, w: 0.81688696}
+  m_LocalPosition: {x: 7.7389793, y: -1.61603, z: 2.79672}
+  m_LocalScale: {x: 0.016378766, y: 0.016378773, z: 0.016378768}
   m_Children:
   - {fileID: 3684547225268212327}
-  m_Father: {fileID: 5284410264649540768}
-  m_RootOrder: 4
+  m_Father: {fileID: 6231462845949097755}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -10.080001, z: 69.819}
 --- !u!95 &2481457294612910462
 Animator:
@@ -1480,6 +1491,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2146810545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2950452345848256576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a95019e4302dd4d83f12423ba64376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3012279487411273760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1603,8 +1626,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1630,7 +1653,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_textAlignment: 514
-  m_characterSpacing: 0
+  m_characterSpacing: -13.46
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1686,6 +1709,40 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   m_maskType: 0
+--- !u!1 &3090144554715575594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6231462845949097755}
+  m_Layer: 0
+  m_Name: PoemaAgua
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6231462845949097755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3090144554715575594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4470934574989483442}
+  - {fileID: 3644377675792895250}
+  - {fileID: 2547796956264113345}
+  - {fileID: 7169703758644310070}
+  m_Father: {fileID: 5284410264649540768}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3376734768690697143
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,6 +2014,7 @@ GameObject:
   - component: {fileID: 2555594278086763271}
   - component: {fileID: 3765630403244043441}
   - component: {fileID: 1226400789}
+  - component: {fileID: 707908769}
   m_Layer: 0
   m_Name: Poem (7)
   m_TagString: Untagged
@@ -1971,13 +2029,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4568192509989489809}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 5953581085878634044}
   m_Father: {fileID: 5284410264649540768}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &3765630403244043441
 Animator:
@@ -2094,6 +2152,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &707908769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4568192509989489809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a95019e4302dd4d83f12423ba64376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4861040296437195670
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,6 +2175,7 @@ GameObject:
   - component: {fileID: 3644377675792895250}
   - component: {fileID: 9006073978964919107}
   - component: {fileID: 1226400792}
+  - component: {fileID: 1762197500}
   m_Layer: 0
   m_Name: Poem (4)
   m_TagString: Untagged
@@ -2119,13 +2190,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4861040296437195670}
-  m_LocalRotation: {x: -0.050273076, y: -0.07203955, z: 0.570069, w: 0.8168869}
-  m_LocalPosition: {x: 7.73898, y: -1.61603, z: 2.79831}
-  m_LocalScale: {x: 0.016378768, y: 0.016378768, z: 0.016378768}
+  m_LocalRotation: {x: -0.05027308, y: -0.07203956, z: 0.5700691, w: 0.81688696}
+  m_LocalPosition: {x: 7.7389793, y: -1.61603, z: 2.79672}
+  m_LocalScale: {x: 0.016378766, y: 0.016378773, z: 0.016378768}
   m_Children:
   - {fileID: 565441646137180236}
-  m_Father: {fileID: 5284410264649540768}
-  m_RootOrder: 3
+  m_Father: {fileID: 6231462845949097755}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -10.080001, z: 69.819}
 --- !u!95 &9006073978964919107
 Animator:
@@ -2242,6 +2313,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1762197500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4861040296437195670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a95019e4302dd4d83f12423ba64376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4899915348474656280
 GameObject:
   m_ObjectHideFlags: 0
@@ -2253,6 +2336,7 @@ GameObject:
   - component: {fileID: 4470934574989483442}
   - component: {fileID: 927717918258904766}
   - component: {fileID: 1226400793}
+  - component: {fileID: 1298513868}
   m_Layer: 0
   m_Name: Poem (3)
   m_TagString: Untagged
@@ -2267,13 +2351,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4899915348474656280}
-  m_LocalRotation: {x: -0.050273076, y: -0.07203955, z: 0.570069, w: 0.8168869}
-  m_LocalPosition: {x: 7.73898, y: -1.61603, z: 2.79831}
-  m_LocalScale: {x: 0.016378768, y: 0.016378768, z: 0.016378768}
+  m_LocalRotation: {x: -0.05027308, y: -0.07203956, z: 0.5700691, w: 0.81688696}
+  m_LocalPosition: {x: 7.7389793, y: -1.61603, z: 2.79672}
+  m_LocalScale: {x: 0.016378766, y: 0.016378773, z: 0.016378768}
   m_Children:
   - {fileID: 514831116571414758}
-  m_Father: {fileID: 5284410264649540768}
-  m_RootOrder: 2
+  m_Father: {fileID: 6231462845949097755}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -10.080001, z: 69.819}
 --- !u!95 &927717918258904766
 Animator:
@@ -2390,6 +2474,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1298513868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4899915348474656280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a95019e4302dd4d83f12423ba64376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5082597069819276671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2500,6 +2596,7 @@ GameObject:
   - component: {fileID: 7169703758644310070}
   - component: {fileID: 454901160133981283}
   - component: {fileID: 1226400790}
+  - component: {fileID: 538733911}
   m_Layer: 0
   m_Name: Poem (6)
   m_TagString: Untagged
@@ -2514,13 +2611,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5145007853804160320}
-  m_LocalRotation: {x: -0.050273076, y: -0.07203955, z: 0.570069, w: 0.8168869}
-  m_LocalPosition: {x: 7.73898, y: -1.61603, z: 2.79831}
-  m_LocalScale: {x: 0.016378768, y: 0.016378768, z: 0.016378768}
+  m_LocalRotation: {x: -0.05027308, y: -0.07203956, z: 0.5700691, w: 0.81688696}
+  m_LocalPosition: {x: 7.7389793, y: -1.61603, z: 2.79672}
+  m_LocalScale: {x: 0.016378766, y: 0.016378773, z: 0.016378768}
   m_Children:
   - {fileID: 1785729832429788539}
-  m_Father: {fileID: 5284410264649540768}
-  m_RootOrder: 5
+  m_Father: {fileID: 6231462845949097755}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -10.080001, z: 69.819}
 --- !u!95 &454901160133981283
 Animator:
@@ -2637,6 +2734,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &538733911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145007853804160320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a95019e4302dd4d83f12423ba64376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5555353888818499700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2648,6 +2757,7 @@ GameObject:
   - component: {fileID: 9016162488664187048}
   - component: {fileID: 793573283821562461}
   - component: {fileID: 1226400788}
+  - component: {fileID: 410525086}
   m_Layer: 0
   m_Name: Poem (8)
   m_TagString: Untagged
@@ -2662,13 +2772,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5555353888818499700}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 5715804379241236699}
   m_Father: {fileID: 5284410264649540768}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &793573283821562461
 Animator:
@@ -2785,6 +2895,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &410525086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5555353888818499700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a95019e4302dd4d83f12423ba64376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5589269065463958014
 GameObject:
   m_ObjectHideFlags: 0
@@ -2908,7 +3030,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 2147483647
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3019,7 +3141,7 @@ Transform:
   m_GameObject: {fileID: 5694269345952333425}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1422128618621915010}
   m_Father: {fileID: 5284410264649540768}
@@ -3535,8 +3657,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3562,7 +3684,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_textAlignment: 514
-  m_characterSpacing: 0
+  m_characterSpacing: -13.46
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -3741,8 +3863,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3768,7 +3890,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_textAlignment: 514
-  m_characterSpacing: 0
+  m_characterSpacing: -13.46
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -3909,7 +4031,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9104444057452258363}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07994bfe8b0e4adb97d706de5dea48d5, type: 3}
   m_Name: 
