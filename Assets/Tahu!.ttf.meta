@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c4cafd076e237334f80f5560e69f83ae
+guid: 0c7e1d45b037e476c892cbb652aa60e1
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 120
-  forceTextureCase: -2
+  fontSize: 128
+  forceTextureCase: 3
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
@@ -12,8 +12,8 @@ TrueTypeFontImporter:
   fontNames:
   - Tahu!
   fallbackFontReferences: []
-  customCharacters: 
-  fontRenderingMode: 0
+  customCharacters: " -+/*!@#$%~'\"&.,:;?abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\xE1\xE3\xE9\xED\xF3\xF5\xFA\xE7\xC1\xC3\xC9\xCD\xD3\xD5\xDA\xC71234567890()[]{}"
+  fontRenderingMode: 1
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1

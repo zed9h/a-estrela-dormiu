@@ -4,6 +4,8 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+[Rr]ecordings/
+[Ll]ogs/
 
 # Visual Studio cache directory
 .vs/
@@ -23,6 +25,7 @@ ExportedObj/
 *.svd
 *.pdb
 *.opendb
+.DS_Store
 
 # Unity3D generated meta files
 *.pidb.meta

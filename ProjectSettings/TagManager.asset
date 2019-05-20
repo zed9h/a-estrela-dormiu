@@ -3,9 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - PlayerLooker
-  - PlayerViwer
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -16,9 +14,9 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - Collision
-  - PlayerViwer
-  - Star
+  - 
+  - 
+  - 
   - 
   - 
   - 
