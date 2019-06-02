@@ -153,11 +153,12 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.pseudogames.ln.estreladormiu
     Standalone: com.pseudogames.ln.estreladormiu
     iOS: com.pseudogames.ln.estreladormiu
   buildNumber: {}
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 16
+  AndroidMinSdkVersion: 24
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -403,6 +404,10 @@ PlayerSettings:
     - Oculus
     - OpenVR
   - m_BuildTarget: iOS
+    m_Enabled: 1
+    m_Devices:
+    - cardboard
+  - m_BuildTarget: Android
     m_Enabled: 1
     m_Devices:
     - cardboard
