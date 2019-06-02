@@ -19,6 +19,10 @@ Que a língua lambe
 * Syaf Rizal a.k.a. Khurasan - Font "Tahu!" https://www.dafont.com/tahu.font (This font is free 100% for personal use and commercial use)
 * 7Letras - Publisher (copyright 2006)
 
+# LICENSE
+
+https://creativecommons.org/licenses/by/3.0/
+
 # CHARSET
 
 * ` -ABCDEHMQabcdeghijlmnoprstuváãçí`
