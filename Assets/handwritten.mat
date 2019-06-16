@@ -69,7 +69,7 @@ Material:
     - _DstBlend: 0
     - _Elevation: 0.04
     - _Emission: 1.21
-    - _Fade: 1
+    - _Fade: 0
     - _Focus: 7.2
     - _GlossMapScale: 1
     - _Glossiness: 0
@@ -84,7 +84,7 @@ Material:
     - _Parallax: 0.02
     - _Pow: 3.56
     - _Rot: 257
-    - _Row: 0.89
+    - _Row: 0
     - _Scale: 400
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
