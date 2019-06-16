@@ -5435,6 +5435,7 @@ GameObject:
   - component: {fileID: 1127228763}
   - component: {fileID: 1127228762}
   - component: {fileID: 1127228761}
+  - component: {fileID: 1127228764}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5507,6 +5508,15 @@ Transform:
   m_Father: {fileID: 1083307531}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!45 &1127228764
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127228760}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: d609a50dc8fe944ff9bad374583bd5e0, type: 2}
 --- !u!4 &1645878478
 Transform:
   m_ObjectHideFlags: 0
@@ -7267,6 +7277,8 @@ PlayableDirector:
     value: {fileID: 2087298445}
   - key: {fileID: 114503166151333640, guid: e8bca5a075d2c488f9d3d00a959e8863, type: 2}
     value: {fileID: 765011635}
+  - key: {fileID: 114508935877892532, guid: e8bca5a075d2c488f9d3d00a959e8863, type: 2}
+    value: {fileID: 1127228764}
   m_ExposedReferences:
     m_References:
     - fbf0b7d5061fc49f78348c48b8d5926a: {fileID: 1934778064}
@@ -7533,7 +7545,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2017314435
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7684,7 +7696,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067970552}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
