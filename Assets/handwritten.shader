@@ -15,8 +15,10 @@
         _StarPow ("Star Power", Float) = 3
         _MergePow ("Merge Power", Float) = 2
         _Fade ("Fade", Range(0,1)) = 0.5
-        _Color ("Color", Color) = (0,0,0,1)
-    }
+		_Color("Color", Color) = (0,0,0,1)
+		_Focus("Focus", Float) = 7
+		_Row("Row", Range(0,1)) = 0.5
+	}
     SubShader
     {
         Tags { "RenderType"="Opaque" }
@@ -53,8 +55,10 @@
             float _Mult;
             float _Circle;
             float _Emission;
-            float _Fade;
-            float4 _Color;
+			float _Fade;
+			float _Focus;
+			float _Row;
+			float4 _Color;
             float _StarPow;
             float _MergePow;
             
@@ -83,12 +87,13 @@
 
             fixed4 frag (v2f i) : SV_Target
             {
-                fixed4 vec = tex2D(_VecTex, i.uv);
+				float2 uv = i.uv;
+                fixed4 vec = tex2D(_VecTex, uv);
                 fixed4 off = (vec - _OffsetScale.x) * _OffsetScale.z;
                 off.xy *= _ScreenParams.zw;
-                fixed4 col = tex2D(_MainTex, i.uv);
+                fixed4 col = tex2D(_MainTex, uv);
                 fixed star = 0;
-                float s = vec.z * _Fade;
+				float s = vec.z * _Fade * (1 - saturate(pow((uv.y - _Row)*_Focus, 2)));
                 float2 p = i.uv * _Scale //+ vec.z * _SinTime.y * 4 * s +
                     - off.xy * s // * (_SinTime.y * 0.5 + 0.5)
                     + float2(_CosTime.y,_SinTime.y) * _Circle * s;
