@@ -17,7 +17,13 @@
         _Fade ("Fade", Range(0,1)) = 0.5
 		_Color("Color", Color) = (0,0,0,1)
 		_Focus("Focus", Float) = 7
+		_HFocus("HFocus", Float) = 2
+		_Col("Column", Float) = 0.5
 		_Row("Row", Range(0,1)) = 0.5
+		_Rot("Rotation", Range(0,360)) = 0
+		_Elevation("Elevation", Range(-1,1)) = 0.2
+
+
 	}
     SubShader
     {
@@ -35,13 +41,13 @@
             struct appdata
             {
                 float4 vertex : POSITION;
-                float2 uv : TEXCOORD0;
+                float3 uv : TEXCOORD0;
             };
 
             struct v2f
             {
-                float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
+                float3 uv : TEXCOORD0;
             };
 
             float4 _MainTex_ST;
@@ -57,11 +63,15 @@
             float _Emission;
 			float _Fade;
 			float _Focus;
+			float _HFocus;
 			float _Row;
 			float4 _Color;
             float _StarPow;
-            float _MergePow;
-            
+			float _MergePow;
+			float _Rot;
+			float _Col;
+			float _Elevation;
+
             float n21 (float2 p) {
                 return frac(dot(sin(
                     p * float2(131, 159)),123.3213213));
@@ -77,23 +87,41 @@
                 return lerp(lerp(n00,n01,f.y), lerp(n10,n11,f.y), f.x);
             }
 
+			float4x4 Rotation() {
+				float a = _Rot * 0.0174532925;
+				float s = sin(a);
+				float c = cos(a);
+				return float4x4(
+					 c, 0, s, 0,
+					 0, 1, 0, 0,
+					-s, 0, c, 0,
+					 0, 0, 0, 1
+				);
+			}
+
+
             v2f vert (appdata v)
             {
                 v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
-                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+                o.vertex = UnityObjectToClipPos(mul(Rotation(), v.vertex));
+                o.uv = v.uv;
                 return o;
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
 				float2 uv = i.uv;
+				uv.x = uv.x + 0.5;
+				uv.y = uv.y + _Row - _Elevation;
                 fixed4 vec = tex2D(_VecTex, uv);
                 fixed4 off = (vec - _OffsetScale.x) * _OffsetScale.z;
                 off.xy *= _ScreenParams.zw;
                 fixed4 col = tex2D(_MainTex, uv);
                 fixed star = 0;
-				float s = vec.z * _Fade * (1 - saturate(pow((uv.y - _Row)*_Focus, 2)));
+				float s = vec.z * _Fade 
+					* (1 - saturate(pow((uv.y - (_Row))*_Focus, 2)))
+					* (1 - saturate(pow((uv.x - _Col)*_HFocus, 2)))
+					* step(0, i.uv.z);
                 float2 p = i.uv * _Scale //+ vec.z * _SinTime.y * 4 * s +
                     - off.xy * s // * (_SinTime.y * 0.5 + 0.5)
                     + float2(_CosTime.y,_SinTime.y) * _Circle * s;
