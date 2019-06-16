@@ -612,7 +612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   template:
     Fade: 1
-    Row: 0.76
+    Row: 0.75
 --- !u!114 &114225454476499232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -959,13 +959,13 @@ MonoBehaviour:
   - m_Start: 4.95
     m_ClipIn: 0
     m_Asset: {fileID: 114890581165953278}
-    m_Duration: 12.683333333333334
+    m_Duration: 16.233333333333334
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114508935877892532}
     m_EaseInDuration: 4.12
-    m_EaseOutDuration: 1.79
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_EaseOutDuration: 2.25
+    m_BlendInDuration: 4.133333333333334
+    m_BlendOutDuration: 5.3514512471655316
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -1025,16 +1025,16 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SkyboxTextSwitcherClip
     m_Version: 1
-  - m_Start: 19.533333333333335
+  - m_Start: 15.831882086167802
     m_ClipIn: 0
     m_Asset: {fileID: 114216965277063542}
-    m_Duration: 4.849999999999998
+    m_Duration: 11.594081632653058
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114508935877892532}
-    m_EaseInDuration: 1.66
-    m_EaseOutDuration: 1.39
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 5.3514512471655316
+    m_BlendOutDuration: 4.427482993197277
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -1094,16 +1094,16 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SkyboxTextSwitcherClip
     m_Version: 1
-  - m_Start: 25.700000000000003
+  - m_Start: 22.998480725623583
     m_ClipIn: 0
     m_Asset: {fileID: 114155972318885754}
-    m_Duration: 4.566666666666663
+    m_Duration: 9.868185941043066
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114508935877892532}
-    m_EaseInDuration: 1.72
-    m_EaseOutDuration: 1.91
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 4.427482993197277
+    m_BlendOutDuration: 4.5617687074829725
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -1163,16 +1163,16 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SkyboxTextSwitcherClip
     m_Version: 1
-  - m_Start: 31.200000000000003
+  - m_Start: 28.304897959183673
     m_ClipIn: 0
     m_Asset: {fileID: 114333588966307062}
-    m_Duration: 5.116666666666667
+    m_Duration: 11.042312925170048
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114508935877892532}
-    m_EaseInDuration: 1.64
-    m_EaseOutDuration: 1.91
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 4.5617687074829725
+    m_BlendOutDuration: 4.934852607709743
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -1232,16 +1232,16 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SkyboxTextSwitcherClip
     m_Version: 1
-  - m_Start: 37.38333333333332
+  - m_Start: 34.41235827664398
     m_ClipIn: 0
     m_Asset: {fileID: 114373708339804178}
-    m_Duration: 5.25
+    m_Duration: 11.078866213151926
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114508935877892532}
-    m_EaseInDuration: 1.92
-    m_EaseOutDuration: 1.71
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 4.934852607709743
+    m_BlendOutDuration: 4.557891156462588
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -1301,16 +1301,16 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SkyboxTextSwitcherClip
     m_Version: 1
-  - m_Start: 43.79999999999999
+  - m_Start: 40.933333333333316
     m_ClipIn: 0
     m_Asset: {fileID: 114710711874484772}
-    m_Duration: 4.81666666666667
+    m_Duration: 11.727959183673477
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114508935877892532}
-    m_EaseInDuration: 1.68
-    m_EaseOutDuration: 1.95
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 4.557891156462588
+    m_BlendOutDuration: 5.977959183673477
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -1370,16 +1370,16 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SkyboxTextSwitcherClip
     m_Version: 1
-  - m_Start: 49.88333333333332
+  - m_Start: 46.683333333333316
     m_ClipIn: 0
     m_Asset: {fileID: 114611202557231752}
-    m_Duration: 8.416666666666679
+    m_Duration: 14.100000000000016
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114508935877892532}
-    m_EaseInDuration: 2.77
-    m_EaseOutDuration: 1.83
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 5.977959183673477
+    m_BlendOutDuration: 4.316666666666677
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -1439,15 +1439,153 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SkyboxTextSwitcherClip
     m_Version: 1
-  - m_Start: 59
+  - m_Start: 56.466666666666654
     m_ClipIn: 0
     m_Asset: {fileID: 114539518237787078}
-    m_Duration: 13.650000000000006
+    m_Duration: 16.183333333333337
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114508935877892532}
-    m_EaseInDuration: 1.74
-    m_EaseOutDuration: 6.688500000000003
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 4.316666666666677
+    m_BlendOutDuration: 9.556462585034005
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SkyboxTextSwitcherClip
+    m_Version: 1
+  - m_Start: 4.95
+    m_ClipIn: 0
+    m_Asset: {fileID: 114607925726588802}
+    m_Duration: 4.133333333333334
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114508935877892532}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
     m_BlendInDuration: -1
+    m_BlendOutDuration: 4.133333333333334
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SkyboxTextSwitcherClip
+    m_Version: 1
+  - m_Start: 63.093537414965986
+    m_ClipIn: 0
+    m_Asset: {fileID: 114954685768643938}
+    m_Duration: 9.556462585034005
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114508935877892532}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 9.556462585034005
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -2154,6 +2292,21 @@ MonoBehaviour:
     m_DisplayName: TextSwitcherClip
     m_Version: 1
   m_Version: 2
+--- !u!114 &114607925726588802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960ec526fa297bd4e878869cb0063c70, type: 3}
+  m_Name: SkyboxTextSwitcherClip
+  m_EditorClassIdentifier: 
+  template:
+    Fade: 0
+    Row: 1
 --- !u!114 &114609801210268786
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3165,6 +3318,21 @@ MonoBehaviour:
     m_DisplayName: Poema_8
     m_Version: 1
   m_Version: 2
+--- !u!114 &114954685768643938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960ec526fa297bd4e878869cb0063c70, type: 3}
+  m_Name: SkyboxTextSwitcherClip
+  m_EditorClassIdentifier: 
+  template:
+    Fade: 0
+    Row: 0
 --- !u!114 &114985148069210296
 MonoBehaviour:
   m_ObjectHideFlags: 1

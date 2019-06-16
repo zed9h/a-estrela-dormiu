@@ -15,20 +15,20 @@ public class SkyboxTextSwitcherMixerBehaviour : PlayableBehaviour
 
         int inputCount = playable.GetInputCount ();
 
+
+        Material mat = trackBinding.material;
         float fade = 0;
         float row = 0;
-
         for (int i = 0; i < inputCount; i++)
         {
             float inputWeight = playable.GetInputWeight(i);
             ScriptPlayable<SkyboxTextSwitcherBehaviour> inputPlayable = (ScriptPlayable<SkyboxTextSwitcherBehaviour>)playable.GetInput(i);
             SkyboxTextSwitcherBehaviour input = inputPlayable.GetBehaviour ();
 
-            fade += input.Fade * inputWeight;
-            if(inputWeight>0) row = input.Row;
+            fade += input.Fade * inputWeight * inputWeight;
+            row += input.Row * inputWeight;
         }
 
-        Material mat = trackBinding.material;
         mat.SetFloat("_Fade", fade);
         mat.SetFloat("_Row", row);
     }
