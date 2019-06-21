@@ -62,7 +62,8 @@ Material:
     m_Floats:
     - _Bottom: 0.03
     - _BumpScale: 1
-    - _Circle: 4.8
+    - _Cel: 0
+    - _Circle: 5
     - _Col: 0.58
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -70,28 +71,31 @@ Material:
     - _Elevation: 0.04
     - _Emission: 1.21
     - _Fade: 0
-    - _Focus: 7.2
+    - _Focus: 9.11
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _HFocus: -0.07
-    - _MergePow: 5.88
+    - _HFocus: -0.17
+    - _MergePow: 6
     - _Metallic: 0
     - _MinThresh: -0.33
     - _Mode: 0
-    - _Mult: 2.8
+    - _Mult: 2.5
     - _OcclusionStrength: 1
+    - _Offset: 0.5
+    - _PScale: 800
     - _Parallax: 0.02
-    - _Pow: 3.56
+    - _Pow: 4
     - _Rot: 257
     - _Row: 0
-    - _Scale: 400
+    - _Scale: 64
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StarPow: 5.55
+    - _StarPow: 2
     - _Thresh: 0.66
     - _Top: 0.44
+    - _UScale: 0.9
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
