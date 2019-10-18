@@ -28,4 +28,3 @@ https://creativecommons.org/licenses/by/3.0/
 * ` -ABCDEHMQabcdeghijlmnoprstuváãçí`
 * ` -+/*!@#$%~'"&.,:;!?abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZáãéíóõúçÁÃÉÍÓÕÚÇ1234567890()[]{}`
 
-teste
